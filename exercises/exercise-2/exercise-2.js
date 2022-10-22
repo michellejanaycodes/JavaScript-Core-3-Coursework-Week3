@@ -81,7 +81,7 @@ const hogwartsHouse = (arr) => {
 hogwartsHouse(hogwarts);
 
 const hasPets = (arr) => {
-  arr.forEach(({ firstName, lastName, house, pet, occupation }) => {
+  arr.forEach(({ firstName, lastName, pet, occupation }) => {
     if (occupation === "Teacher" && pet !== null) {
       console.log(`${firstName} ${lastName}`);
     }
