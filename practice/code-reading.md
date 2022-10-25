@@ -65,5 +65,5 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
-The first will be 10 because the function is changing the value of x.
+The first will be 9 because the variable is declared using const.
 The second will be {x: 10}, because the function is being called changing the value of the object key x.
